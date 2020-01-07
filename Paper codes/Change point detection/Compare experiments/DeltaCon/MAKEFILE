@@ -1,0 +1,21 @@
+OTHERFILE=README \
+ MAKEFILE \
+ license.txt \
+ GRAPHS
+
+DELTACONFILE=${OTHERFILE} \
+ DeltaCon.m \
+ edgefile2matrix.m \
+ initPriorsPercent.m \
+ inverse_LBP.m \
+ inverse_LBP_w_groupSeed.m \
+ demo_deltacon.m 
+
+demo: 
+	matlab -r demo_deltacon
+
+zip: tar
+
+tar: ${DELTACONFILE} 
+	zip deltacon.zip ${DELTACONFILE}
+
