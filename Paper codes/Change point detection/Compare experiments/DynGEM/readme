@@ -1,0 +1,10 @@
+The core of processing is available in https://github.com/palash1992/DynamicGEM
+
+DynGEM.py is method to detect change-point in our paper.
+
+@inproceedings{goyal2018dyngem,
+  title={DynGEM: Deep Embedding Method for Dynamic Graphs},
+  author={Goyal, Palash and Kamra, Nitin and He, Xinran and Liu, Yan},
+  booktitle={IJCAI International Workshop on Representation Learning for Graphs (ReLiG)},
+  year={2017}
+}
